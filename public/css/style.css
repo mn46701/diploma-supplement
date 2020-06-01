@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    font-family: Sans-Serif;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    padding: 15px;
+}
+
+header a {
+    display: block;
+    padding: 15px 30px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+hr {
+    display: block;
+    height: 5px;
+    border: none;
+}
+
+
+.subjects-wrapper {
+    display: flex;
+    padding: 15px;
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+    flex-wrap: wrap;
+}
+
+.subjects-wrapper a {
+    width: auto;
+    margin: 7.5px;
+    display: flex;
+    padding: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+}
+
+.subject-title {
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.marking-form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marking-form {
+    margin-top: 50px;
+    border-collapse: collapse
+}
+
+.marking-table {
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+
+table, th, td {
+    border: 1px solid #ffffff;
+}
+
+.mark-field {
+    width: 25px;
+    padding: 5px 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.marking-table td, .marking-table th {
+    padding: 10px 15px;
+}
+
+.message {
+    border: 2px solid #ffffff;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.marking-form-button {
+    display: block;
+    width: 100%;
+    border: 2px solid #ffffff;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.students-wrapper {
+
+}
+
+
